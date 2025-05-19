@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synthesia AI Video Creation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    #popup {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-white to-gray-100 text-gray-800">
+
+  <!-- Pop-up CTA -->
+  <div id="popup" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-2xl text-center max-w-sm shadow-2xl animate-pulse">
+      <h3 class="text-xl font-bold mb-2">🎬 Ready to Try Synthesia?</h3>
+      <p class="mb-4 text-sm">Click below to create your first AI-powered video.</p>
+      <a href="https://linkcut.io/synthesia" class="inline-block bg-indigo-600 text-white font-semibold px-5 py-2 rounded-full hover:bg-indigo-700 transition">Start Now</a>
+      <button onclick="document.getElementById('popup').style.display='none'" class="mt-4 block text-sm text-gray-500 hover:text-gray-800">Close</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-500 text-white py-20 px-6 text-center" data-aos="fade-down">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-bounce">Turn Text into Video with AI 🎥</h1>
+    <p class="text-lg md:text-xl mb-8">Synthesia makes video creation faster, smarter, and easier than ever.</p>
+    <a href="https://linkcut.io/synthesia" class="inline-block bg-white text-purple-700 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-gray-100 transition transform hover:scale-105">
+      Try Synthesia Now
+    </a>
+  </section>
+
+  <!-- Visual Preview -->
+  <section class="py-16 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">See It in Action</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <a href="https://linkcut.io/synthesia" target="_blank" data-aos="zoom-in">
+        <img src="https://media.giphy.com/media/loN3GFUkYOvJ6EmxKZ/giphy.gif" alt="AI Avatar" class="rounded-2xl shadow-xl hover:scale-105 transition" />
+      </a>
+      <a href="https://linkcut.io/synthesia" target="_blank" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://media.giphy.com/media/QXgsb3Z9Gd9Xy5A1lR/giphy.gif" alt="Script to Video" class="rounded-2xl shadow-xl hover:scale-105 transition" />
+      </a>
+      <a href="https://linkcut.io/synthesia" target="_blank" data-aos="zoom-in" data-aos-delay="400">
+        <img src="https://media.giphy.com/media/Xxk0z5nMSE4TBgLUYP/giphy.gif" alt="Multilingual AI" class="rounded-2xl shadow-xl hover:scale-105 transition" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Decorative Divider -->
+  <div class="w-full h-20 bg-gradient-to-r from-pink-400 via-indigo-500 to-purple-600 mb-16" data-aos="fade-in"></div>
+
+  <!-- Feature Highlights with Images -->
+  <section class="bg-white py-16 px-6" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+      <div class="p-6 bg-gradient-to-br from-purple-100 via-white to-indigo-100 rounded-2xl shadow hover:shadow-md transition" data-aos="flip-left">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png" class="mx-auto mb-4" alt="AI Icon" />
+        <h3 class="text-xl font-semibold mb-2">AI Avatars</h3>
+        <p>Create lifelike avatars that speak your script — available in 120+ languages.</p>
+      </div>
+      <div class="p-6 bg-gradient-to-br from-pink-100 via-white to-indigo-100 rounded-2xl shadow hover:shadow-md transition" data-aos="flip-left" data-aos-delay="200">
+        <img src="https://img.icons8.com/color/96/video-editing.png" class="mx-auto mb-4" alt="Video Icon" />
+        <h3 class="text-xl font-semibold mb-2">No Editing Needed</h3>
+        <p>Forget timelines and software — just type, click, and publish your AI video.</p>
+      </div>
+      <div class="p-6 bg-gradient-to-br from-indigo-100 via-white to-purple-100 rounded-2xl shadow hover:shadow-md transition" data-aos="flip-left" data-aos-delay="400">
+        <img src="https://img.icons8.com/color/96/money.png" class="mx-auto mb-4" alt="Cost Icon" />
+        <h3 class="text-xl font-semibold mb-2">Cost Efficient</h3>
+        <p>Save thousands on production. Make videos at scale without hiring actors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-20 px-6 text-center" data-aos="zoom-in">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Start Creating AI Videos Today</h2>
+    <p class="text-lg mb-8">Trusted by thousands of businesses and creators worldwide.</p>
+    <a href="https://linkcut.io/synthesia" class="inline-block bg-white text-purple-700 font-semibold px-8 py-4 rounded-full shadow-xl hover:bg-gray-100 transition transform hover:scale-110 text-lg">
+      Join Synthesia Now
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 text-sm text-gray-500">
+    &copy; 2025 Your Brand. This is an affiliate promotion for Synthesia.io.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    setTimeout(() => {
+      document.getElementById('popup').style.display = 'flex';
+    }, 7000);
+  </script>
+
+</body>
+</html>
